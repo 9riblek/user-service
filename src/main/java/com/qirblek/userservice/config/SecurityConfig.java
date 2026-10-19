@@ -1,4 +1,4 @@
-package com.qirblek.userservice.Config;
+package com.qirblek.userservice.config;
 
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
