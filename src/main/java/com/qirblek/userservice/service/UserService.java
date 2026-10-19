@@ -1,12 +1,10 @@
 package com.qirblek.userservice.service;
 
 import com.qirblek.userservice.dto.UserResponseDTO;
-import com.qirblek.userservice.entity.User;
 import com.qirblek.userservice.enums.Role;
 import com.qirblek.userservice.exception.UserNotFoundException;
 import com.qirblek.userservice.mapper.UserMapper;
 import com.qirblek.userservice.repository.UserRepository;
-import org.springframework.security.crypto.bcrypt.BCrypt;
 import org.springframework.stereotype.Service;
 
 import java.util.List;
